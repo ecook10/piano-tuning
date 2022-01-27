@@ -7,6 +7,7 @@ also a place for me to try out some react-native / react-js cross breeding
 ## Running
 _assumes you have an android emulator ready to go_
 ```bash
+$ npm install
 $ npm run start
 $ npm run android
 ```
