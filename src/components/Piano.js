@@ -34,7 +34,7 @@ const BlackKey = ({ offset }) => (
 
 export default () => (
   // TODO draw a piano
-  <Svg height="100%" width="100%" viewBox="0 0 760 1400">
+  <Svg height="100%" width="100%" viewBox="-270 0 760 1400">
     {Array(14).fill().map((_, i) => <WhiteKey offset={i} key={i} />)}
     {BLACK_KEY_OFFSETS.map(x => <BlackKey offset={x} key={x} />)}
     {BLACK_KEY_OFFSETS.map(x => <BlackKey offset={x+7} key={x+7} />)}
